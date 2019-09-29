@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yb.medical_online.fun.dao.ITestDao">
+
+<select id="getTestList" parameterType="com.yb.medical_online.fun.bean.test.TestForm" resultType="com.yb.medical_online.fun.bean.test.TestBean">
+  SELECT * FROM test
+</select>
+</mapper>
